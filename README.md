@@ -32,16 +32,20 @@ For Software:
 
 ### Project Documentation
 For Software:
+User Input: The user enters a fake caller's name, sets a time delay for the call, and uploads a custom ringtone.
+Scheduling: When the user clicks "Schedule Fake Call," the app stores the inputs and waits for the specified delay.
+Simulated Call: After the delay, the app displays an incoming call screen with the caller's name and plays the selected ringtone.
+Interaction: The user can either answer or decline the call. Afterward, the app shows the call status (answered or declined).
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1] https://ibb.co/5rrZdrv
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2] https://ibb.co/bFYz70k
+
+
+![Screenshot3] https://ibb.co/pb2xQmM
+
 
 # Diagrams ![Workflow]+-----------------------------+
 |           Start              |
