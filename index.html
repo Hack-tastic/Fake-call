@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Call App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Fake Call App</h1>
+
+        <!-- Fake Call Menu -->
+        <div id="fake-call-menu">
+            <label for="caller-name">Enter Caller Name:</label>
+            <input type="text" id="caller-name" placeholder="John Doe">
+
+            <label for="call-time">Enter Time Delay (seconds):</label>
+            <input type="number" id="call-time" placeholder="5">
+
+            <label for="ringtone">Select Ringtone:</label>
+            <input type="file" id="ringtone" accept="audio/*">
+
+            <button onclick="scheduleFakeCall()">Schedule Fake Call</button>
+        </div>
+
+        <!-- Simulated Call Screen -->
+        <div id="call-screen" class="hidden">
+            <h2>Incoming Call...</h2>
+            <p>Caller: <span id="caller-name-display"></span></p>
+            <audio id="ringtone-audio" autoplay></audio>
+            <div id="call-options">
+                <button onclick="answerCall()">Answer</button>
+                <button onclick="declineCall()">Decline</button>
+            </div>
+        </div>
+
+        <!-- Call Status -->
+        <div id="call-status" class="hidden">
+            <h2>Call Status</h2>
+            <p id="status-text"></p>
+            <button onclick="goBackToMenu()">Back to Menu</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
