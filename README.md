@@ -1,47 +1,34 @@
-# [Project Name] 🎯
+# Fake call simulator 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Hacktastic
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Fathimathul Hida Musthafa- GCEK
+- Member 2: Malufa M- GCEK
+- Member 3: Binisha K- GCEK
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://hack-tastic.github.io/Fake-call/
 
 ### Project Description
-[2-3 lines about what your project does]
+A fake call app allows users to simulate incoming phone calls, providing a realistic caller ID, ringtone, and interface. It's often used for pranks or as a quick escape from awkward situations.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+People need a quick and discreet way to escape awkward or uncomfortable situations, but lack a reliable tool to simulate realistic incoming calls.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+The solution is a fake call app that allows users to schedule or instantly trigger realistic incoming calls with customizable caller details, ringtones, and interfaces, providing a quick and believable way to exit uncomfortable situations.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- HTML,CSS,Javascript
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
-### Implementation
-For Software:
-# Installation
-[commands]
 
-# Run
-[commands]
 
 ### Project Documentation
 For Software:
@@ -56,44 +43,80 @@ For Software:
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+# Diagrams ![Workflow]+-----------------------------+
+|           Start              |
++-----------------------------+
+             |
+             v
++-----------------------------+
+| User enters caller name,    |
+| call time (seconds), and    |
+| selects ringtone.           |
++-----------------------------+
+             |
+             v
++-----------------------------+
+| User clicks "Schedule Fake  |
+| Call" button.               |
++-----------------------------+
+             |
+             v
++-----------------------------+
+| App waits for specified     |
+| time delay (in seconds).    |
++-----------------------------+
+             |
+             v
++-----------------------------+
+| Time delay expired, show    |
+| incoming call screen.       |
++-----------------------------+
+             |
+             v
++-----------------------------+
+| User interacts with call:   |
+| Answer or Decline.          |
++-------------+---------------+
+             |               
+             v               
+    +--------------------+     +---------------------+
+    | User clicks "Answer"|     | User clicks "Decline"|
+    +--------------------+     +---------------------+
+             |                        |
+             v                        v
++-----------------------------+  +-----------------------------+
+| Show status: "You answered  |  | Show status: "You declined  |
+| the call."                  |  | the call."                  |
++-----------------------------+  +-----------------------------+
+             |
+             v
++-----------------------------+
+| Show "Back to Menu" button  |
++-----------------------------+
+             |
+             v
++-----------------------------+
+| User clicks "Back to Menu"  |
++-----------------------------+
+             |
+             v
++-----------------------------+
+| Return to Fake Call Menu.   |
++-----------------------------+
+             |
+             v
++-----------------------------+
+|           End                |
++-----------------------------+
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Team](Add photo of your team here)
+*This workflow outlines the steps a user follows in the Fake Call App, from inputting caller details and setting a time delay, to receiving a simulated incoming call.
 
 
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Fathimathul Hida Musthafa: Gathered javascript code
+- Malufa M:Styled the webpage using CSS
+- Binisha K: Combined js file and css file in html file
 
 ---
 Made with ❤️ at TinkerHub
